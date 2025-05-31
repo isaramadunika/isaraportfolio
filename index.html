@@ -2550,7 +2550,7 @@ Answer questions about Ishara professionally and accurately. If asked about topi
                 
                 // Basic fallback responses
                 if (input.includes('hello') || input.includes('hi') || input.includes('hey')) {
-                    return "👋Hello! I'm Ishara's AI assistant. I can help you learn about his experience, projects, skills, and research. What would you like to know?";
+                    return "Hello! I'm Ishara's AI assistant. I can help you learn about his experience, projects, skills, and research. What would you like to know?";
                 }
                 
                 if (input.includes('project')) {
@@ -2621,9 +2621,9 @@ Answer questions about Ishara professionally and accurately. If asked about topi
             });
 
             // Add initial greeting
-            setTimeout(() => {
-                addMessage("");
-            }, 1000);
+            // setTimeout(() => {
+            //    addMessage("👋 ");
+            // }, 1000);
         }
 
         // Add typing indicator CSS
